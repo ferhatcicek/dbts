@@ -1,5 +1,8 @@
 # 🧠 Deformasyonel Brakisefali Tespit Sistemi
 
+<img width="1252" height="731" alt="resim" src="https://github.com/user-attachments/assets/6b22bdd4-7fa2-48f9-9d8e-edbb84f881f7" />
+
+
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)
 [![Gradio](https://img.shields.io/badge/Gradio-4.x-orange?logo=gradio)](https://gradio.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
