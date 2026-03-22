@@ -166,11 +166,9 @@ kafatasi/
 ### 1. Depoyu Klonla
 
 ```bash
-git clone https://github.com/KULLANICI_ADI/kafatasi.git
-cd kafatasi
+git clone https://github.com/ferhatcicek/dbts.git
+cd dbts
 ```
-
-> **Not:** `KULLANICI_ADI` yerine kendi GitHub kullanıcı adınızı girin.
 
 ### 2. Sanal Ortamı Kur (Windows)
 
@@ -241,7 +239,7 @@ git commit -m "ilk surum: brakisefali tespit sistemi"
 ### 3. Uzak Depoya Bağla ve Yükle
 
 ```bash
-git remote add origin https://github.com/KULLANICI_ADI/kafatasi.git
+git remote add origin https://github.com/ferhatcicek/dbts.git
 git branch -M main
 git push -u origin main
 ```
@@ -266,8 +264,8 @@ git push
 
 ```bash
 # 1. Klonla
-git clone https://github.com/KULLANICI_ADI/kafatasi.git
-cd kafatasi
+git clone https://github.com/ferhatcicek/dbts.git
+cd dbts
 
 # 2. Sanal ortamı kur
 setup_venv.bat        # Windows
