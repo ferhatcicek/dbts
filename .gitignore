@@ -1,0 +1,82 @@
+# ================================================
+# Deformasyonel Brakisefali Tespit Sistemi
+# .gitignore
+# ================================================
+
+# --- Sanal ortam (ASLA commit'leme) ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Python derleme dosyaları ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# --- Dağıtım / paketleme ---
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# --- Test & kapsam raporları ---
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# --- AI model dosyaları (rembg otomatik indirir) ---
+*.onnx
+*.pb
+*.tflite
+.u2net/
+
+# --- Geçici & çıktı dosyaları ---
+*.tmp
+*.temp
+temp_*.jpg
+temp_*.png
+/output/
+/reports/
+
+# --- PDF çıktıları ---
+brakisefali_raporu_*.pdf
+rapor_*.pdf
+
+# --- Ortam değişkenleri ---
+.env
+.env.*
+
+# --- IDE ve editör klasörleri ---
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*~
+
+# --- Windows sistem dosyaları ---
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+
+# --- Log dosyaları ---
+*.log
+logs/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Eski/yedek sürümler (proje içi) ---
+app_v1.py
+*_backup.py
+*_old.py

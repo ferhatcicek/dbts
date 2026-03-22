@@ -1,0 +1,38 @@
+# ================================================
+# Deformasyonel Brakisefali Tespit Sistemi
+# Python Bağımlılıkları
+# ================================================
+
+# Görüntü işleme
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+Pillow>=10.0.0
+
+# Sayısal hesaplama
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Yüz & landmark tespiti
+mediapipe>=0.10.7
+
+# Makine öğrenmesi (hafif sınıflandırıcı)
+scikit-learn>=1.3.0
+scikit-image>=0.21.0
+
+# Görselleştirme
+matplotlib>=3.7.0
+
+# Web arayüzü
+gradio>=4.20.0
+
+# Rapor oluşturma
+reportlab>=4.0.0
+fpdf2>=2.7.6
+
+# Arkaplan kaldırma (opsiyonel - AI tabanlı segmentasyon)
+rembg>=2.0.50
+onnxruntime>=1.16.0
+
+# Yardımcı araçlar
+tqdm>=4.66.0
+python-dotenv>=1.0.0
